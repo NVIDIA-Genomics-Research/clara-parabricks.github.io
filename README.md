@@ -1,1 +1,1 @@
-# Clara Genomics github page
+# Welcome to Clara Omics!
