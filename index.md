@@ -8,5 +8,5 @@ Clara Omics is an open source initiative to bring GPU acceleration to the comput
 
 GPU accelerated genome analysis SDKs.
 
-1. [ClaraGenomicsAnalysis](https://clara-genomics.github.io/ClaraGenomicsAnalysis/) - SDK for genome mapping and alignment algorithms.
+1. [ClaraGenomicsAnalysis](https://github.com/clara-genomics/ClaraGenomicsAnalysis) - SDK for genome mapping and alignment algorithms.
 2. [AtacWorks](https://github.com/clara-genomics/AtacWorks) - SDK for deep learning based processing of Atac-seq data.
