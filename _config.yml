@@ -1,2 +1,3 @@
 theme: jekyll-theme-cayman
-name: Clara Omics
+title: Clara Omics
+description: NVIDIA GPU accelerated Omics projects
