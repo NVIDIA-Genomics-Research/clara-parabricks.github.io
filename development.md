@@ -4,7 +4,8 @@
 
 Welcome to the Clara Omics development guide. This page will cover the following information - 
 1. [Contributing to Clara Omics](#contributing-to-clara-omics)
-2. [Release Methodology](#release-methodology)
+2. [CI Testing](#ci-testing)
+3. [Release Methodology](#release-methodology)
 
 ## Contributing to Clara Omics
 
@@ -154,6 +155,14 @@ git fetch <remote> pull/<pull_request_number>/head:<new_local_branch_name>
 ### Merging an MR
 
 Before merging an MR, please ensure that all open discussions are resolved and tests pass. Then merge the pull request using the GitHub UI.
+
+## CI Testing
+
+Clara Omics CI testing makes use of the GPU-aware testing framework called [gpuCI](https://docs.rapids.ai/gpuci) developed by RAPIDS.
+
+Each PR into one of the protected branches (`dev-vX.Y.Z` or `master`) will trigger automatic tests. Tests can also be run locally using the instructions
+under the `Testing` section of the relevant repository. If you are a first time contributor (thank you!) and are unable to run tests, please ping one of the
+admins of the repo to ask for help.
 
 ## Release Methodology
 
