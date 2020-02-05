@@ -4,8 +4,9 @@
 
 Welcome to the Clara Omics development guide. This page will cover the following information - 
 1. [Contributing to Clara Omics](#contributing-to-clara-omics)
-2. [CI Testing](#ci-testing)
-3. [Release Methodology](#release-methodology)
+2. [Coding style](#coding-style)
+3. [CI Testing](#ci-testing)
+4. [Release Methodology](#release-methodology)
 
 ## Contributing to Clara Omics
 
@@ -155,6 +156,10 @@ git fetch <remote> pull/<pull_request_number>/head:<new_local_branch_name>
 ### Merging an MR
 
 Before merging an MR, please ensure that all open discussions are resolved and tests pass. Then merge the pull request using the GitHub UI.
+
+## Coding Style
+
+A list of guidelines for a common coding style across the project can be found in our [Coding Style Guidelines](https://clara-genomics.github.io/coding_style_guidelines.html).
 
 ## CI Testing
 
